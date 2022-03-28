@@ -6,5 +6,10 @@
   "rules": {
     "@typescript-eslint/explicit-function-return-type" :"off",
     "@typescript-eslint/strict-boolean-expressions":"off"
-  }
+  },
+  "include": [
+    "src",
+    "tests",
+    ".eslintrc.js"
+   ]
 }

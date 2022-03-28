@@ -11,6 +11,21 @@
       "@modules/*": ["modules/*"],
       "@models/*":["models/*"]
   },
-  "typeRoots": ["./src/@types"]
-  }
+
+  //"typeRoots": ["./src/@types"],
+  // "types": ["node", "jest"],
+  },
+  "include": [
+    "src"
+  ],
+  "exclude": [
+    "**/*.spec.ts",
+    "**/*.test.ts"
+  ]
+  // "exclude": [
+  //   "test.ts",
+  //   "**/*.spec.ts",
+  //   "node_modules"
+  // ]
 }
+
